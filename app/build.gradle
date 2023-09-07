@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.android_template'
+    namespace 'com.example.androidTemplate'
     compileSdk 33
 
     defaultConfig {
