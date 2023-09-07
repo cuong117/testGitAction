@@ -1,4 +1,4 @@
-name: ktlintCheck
+name: ktlintCheck1
 
 on:
   pull_request:
