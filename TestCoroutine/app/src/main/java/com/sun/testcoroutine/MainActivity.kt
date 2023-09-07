@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     fun test() {
         val a = runBlocking {
+            val e = ""
             val time = measureTimeMillis {
 
                 val b = async {
