@@ -16,5 +16,6 @@ jobs:
 
       - name: 'check version java'
         run: java --version
+      - run: ls
       - name: 'ktlint'
         run: ./gradlew ktlintCheck --daemon
