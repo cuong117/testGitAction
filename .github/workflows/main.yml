@@ -9,4 +9,7 @@ jobs:
   check:
     runs-on: windows-latest
     steps:
+      - uses: actions/setup-java@3
+        with: 
+          java-version: '17'
       - run: java --version
