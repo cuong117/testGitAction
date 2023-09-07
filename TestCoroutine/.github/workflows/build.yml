@@ -1,0 +1,12 @@
+name: ktlintCheck
+
+on:
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  check:
+    runs-on: windows-latest
+    steps:
+      - run: java --version
